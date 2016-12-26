@@ -1,0 +1,21 @@
+*.tmp
+*.bak
+*.swp
+*.swo
+*.crc
+*~.nib
+
+# gedit
+*~
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+.idea
+*.iml
+
+# for .oh_my_zsh custom file
+themes/mine.zsh-theme
