@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
-# GIT_PROFILE環境変数
-#   id_rsaファイルを取得するならDropboxのアクセストークンを設定してください
-#   しないのであればno_needと設定してください
+# HOST_TYPE環境変数
+#   実行するホストのタイプ。会社PCならwork, 個人PCならpersonalと指定
+# DROPBOX_ACCESS_TOKEN環境変数
+#   Dropboxのアクセストークンを設定してください
 
 set -eux
 
@@ -10,3 +11,9 @@ set -eux
 script_dir=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
 
 # ここ、DROPBOX_ACCESS_TOKENは必須なのにsshの方ではそれがボタンになるよう書いているのでコンフリクトしているため詰まった
+
+set +x
+curl -X POST https://content.dropboxapi.com/2/files/download \
+    --header "Authorization: Bearer $DROPBOX_ACCESS_TOKEN" \
+    --header 'Dropbox-API-Arg: {"path":"/'$HOST_TYPE'/.gitconfig"}' > $HOME/.gitconfig
+set -x
