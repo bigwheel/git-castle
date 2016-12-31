@@ -10,8 +10,6 @@ set -eux
 # http://qiita.com/yudoufu/items/48cb6fb71e5b498b2532
 script_dir=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
 
-# ここ、DROPBOX_ACCESS_TOKENは必須なのにsshの方ではそれがボタンになるよう書いているのでコンフリクトしているため詰まった
-
 set +x
 curl -X POST https://content.dropboxapi.com/2/files/download \
     --header "Authorization: Bearer $DROPBOX_ACCESS_TOKEN" \
