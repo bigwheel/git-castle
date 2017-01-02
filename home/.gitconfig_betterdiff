@@ -1,3 +1,6 @@
+# diff-highlightが使えない環境であれば単純にリンクまたはファイルを削除すること
+# (gitconfigのinclude先がなくとも特にエラーなどは出なかったため)
+# diff-highlightに実行権限がないというエラーが出た場合は単純にファイルへ実行権限を付与する
 [pager]
     log = diff-highlight | less
     show = diff-highlight | less
