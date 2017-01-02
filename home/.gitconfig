@@ -2,21 +2,21 @@
     path = ~/.gitconfig_userinfo
     path = ~/.gitconfig_betterdiff
 [color]
-	# colorの設定(以下のコマンドは自動で色つける)
-	status = auto
-	diff = auto
-	branch = auto
-	interactive = auto
-	grep = auto
+    # colorの設定(以下のコマンドは自動で色つける)
+    status = auto
+    diff = auto
+    branch = auto
+    interactive = auto
+    grep = auto
 [core]
-	excludesfile = ~/.gitignore_global
-	autocrlf = input
+    excludesfile = ~/.gitignore_global
+    autocrlf = input
     quotepath = false
 [alias]
-	co = checkout
-	st = status
-	df = diff
-	br = branch
-	ci = commit
-	lg = log
-	ad = add
+    co = checkout
+    st = status
+    df = diff
+    br = branch
+    ci = commit
+    lg = log
+    ad = add
