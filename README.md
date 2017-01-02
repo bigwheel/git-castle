@@ -1,4 +1,4 @@
-# version 1.7.9以前のgit用castle
+# git用castle
 
-[1.7.9以前はgitconfigの中でincludeが使えない](https://github.com/git/git/blob/master/Documentation/RelNotes/1.7.10.txt)。
-このcastleはそんな1.7.9以前のgit用のものである。
+gitconfigのinclude(ver 1.7.10以降で使用可能)を使用する。
+また2.9以降で使用できるdiff-highlightも選択的に使用可能にする。
