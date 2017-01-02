@@ -13,5 +13,5 @@ script_dir=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
 set +x
 curl -X POST https://content.dropboxapi.com/2/files/download \
     --header "Authorization: Bearer $DROPBOX_ACCESS_TOKEN" \
-    --header 'Dropbox-API-Arg: {"path":"/'$HOST_TYPE'/.gitconfig"}' > $HOME/.gitconfig
+    --header 'Dropbox-API-Arg: {"path":"/'$HOST_TYPE'/.gitconfig_userinfo"}' > $HOME/.gitconfig_userinfo
 set -x
