@@ -12,11 +12,10 @@
     excludesfile = ~/.gitignore_global
     autocrlf = input
     quotepath = false
-[alias]
-    co = checkout
-    st = status
-    df = diff
-    br = branch
-    ci = commit
-    lg = log
-    ad = add
+[push]
+    # push only the current branch
+    default = current
+[merge]
+    ff = false
+[pull]
+    rebase = true
