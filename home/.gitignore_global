@@ -16,6 +16,3 @@ Icon
 
 .idea
 *.iml
-
-# for .oh_my_zsh custom file
-themes/mine.zsh-theme
