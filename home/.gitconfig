@@ -17,5 +17,8 @@
     default = current
 [merge]
     ff = false
+    tool = vimdiff
 [pull]
     rebase = true
+[diff]
+    tool = vimdiff
