@@ -22,3 +22,6 @@
     rebase = true
 [diff]
     tool = vimdiff
+	compactionHeuristic = true
+[interactive]
+	diffFilter = diff-highlight
