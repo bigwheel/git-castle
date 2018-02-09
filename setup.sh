@@ -15,6 +15,3 @@ curl -X POST https://content.dropboxapi.com/2/files/download \
     --header "Authorization: Bearer $DROPBOX_ACCESS_TOKEN" \
     --header 'Dropbox-API-Arg: {"path":"/'$HOST_TYPE'/.gitconfig_userinfo"}' > $HOME/.gitconfig_userinfo
 set -x
-
-mkdir -p ~/bin
-curl -L https://github.com/takaaki-kasai/git-foresta/raw/master/git-foresta -o ~/bin/git-foresta && chmod +x ~/bin/git-foresta
