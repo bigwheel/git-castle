@@ -25,3 +25,5 @@
 	compactionHeuristic = true
 [interactive]
 	diffFilter = diff-highlight
+[rebase]
+	autosquash = true
