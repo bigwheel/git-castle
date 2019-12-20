@@ -29,3 +29,6 @@ Icon
 # 不正？な生成ファイルなので一旦無視指定
 # https://www.google.co.jp/search?q=react-app-env.d.ts
 react-app-env.d.ts
+
+.node-version
+/vendor/bundle
