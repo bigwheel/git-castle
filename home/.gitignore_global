@@ -33,3 +33,8 @@ react-app-env.d.ts
 .node-version
 /vendor/bundle
 /.bundle
+
+secret.tfvars
+
+# 一時的なもの。削除してOK
+mysql-setup-users.real.sql
