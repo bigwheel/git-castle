@@ -35,3 +35,11 @@ react-app-env.d.ts
 /.bundle
 
 secret.tfvars
+
+*.bk
+
+# そうそうバージョン管理したいことはないし、その場合でもforce addでよさそう
+vendor
+
+# 一時的なもの。削除してOK
+mysql-setup-users.real.sql
