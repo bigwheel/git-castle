@@ -43,3 +43,6 @@ vendor
 
 # 一時的なもの。削除してOK
 mysql-setup-users.real.sql
+
+# vscodeの実行設定。IDEの設定は概ね共有されない
+/.vscode
