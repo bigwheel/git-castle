@@ -19,8 +19,8 @@ Icon
 
 /tmp
 
-.env
-.envrc
+# .env
+# .envrc
 
 # https://blog.shibayu36.org/entry/2017/04/01/213621
 .autoenv.zsh
