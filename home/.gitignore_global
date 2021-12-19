@@ -46,3 +46,7 @@ mysql-setup-users.real.sql
 
 # vscodeの実行設定。IDEの設定は概ね共有されない
 /.vscode
+
+# https://github.com/google/clasp/blob/master/docs/run.md
+# などで使われている秘匿情報のファイル名
+creds.json
