@@ -17,7 +17,7 @@ Icon
 .idea
 *.iml
 
-/tmp
+tmp
 
 # .env
 # .envrc
